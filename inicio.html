@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE KING BARBER</title>
+    <link rel="icon" href="/imagensBarbearia/logo.png">
+</head>
+<link rel="stylesheet" href="inicio.css">
+<body>
+    <center> <img src="/imagensBarbearia/logo.png" alt="logo" id="logo"></center>
+    <div class="menuNavegacao">
+        <button id="inicio">INÍCIO</button>
+        <button id="produtos" onclick="window.location.href='/produtos/produtos.html'">PRODUTOS</button>
+        <button id="AgendarNav">AGENDE AQUI!</button>
+    </div>
+
+    <div class="intro">
+        <h1 id="tituloBarber">THE KING'S BARBER</h1>
+        <img src="/imagensBarbearia/logo2.jpg" alt="img de baixo do cabeçalho" id="logo2">
+    </div>
+
+    <div class="PreçosCortes">
+        <img src="/imagensBarbearia/fundoPreto.png" alt="fundo" id="fundoPreto1">
+        <h1 id="tituloCortes">SEUS SERVIÇOS AQUI!</h1>
+        <div class="corte1">
+            <p id="corte1">Corte com luzes 45R$</p>
+            <img src="/imagensBarbearia/luzes.jpg" alt="luzes" id="imgLuzes">
+        </div>
+
+        <div class="corte2">
+            <p id="corte2">Corte Americano 20R$</p>
+            <img src="/imagensBarbearia/americano.jpg" alt="americano" id="americano">
+        </div>
+
+        <div class="corte3">
+            <p id="corte3">Sombrancelha 10R$</p>
+            <img src="/imagensBarbearia/sobrancelha.png" alt="sobrencelha" id="sobrencelha">
+        </div>
+        <div class="corte4">
+            <p id="corte4">Corte social 20R$</p>
+        </div>
+        
+        <button id="botaoAgende">AGENDE SEU CORTE AQUI!</button>
+    </div>
+
+    <div class="Produtos">
+        <h1 id="tituloProdutos">PRODUTOS</h1>
+
+        <div class="produto1">
+            <p id="produto1">Kit Perfeito R$100,00</p>
+            <img src="/imagensBarbearia/kitBarbear.jpg" alt="kit barbear" id="kitBarbearia">
+            <button id="botao1"  onclick="window.location.href='/produtos/kitPerfeito.html'">VER MAIS</button>
+        </div>
+        <div class="produto2">
+            <p id="produto2">Máquinas R$50,00</p>
+            <img src="/imagensBarbearia/maquina.jpg" alt="maquina" id="maquina">
+            <button id="botao2" onclick="window.location.href='/produtos/maquina.html'">VER MAIS</button>
+        </div>
+        <div class="produto3">
+            <p id="produto3">Tesouras R$40,00</p>
+            <img src="/imagensBarbearia/tesoura.jpg" alt="tesoura" id="tesoura">
+            <button id="botao3" onclick="window.location.href='/produtos/tesoura.html'">VER MAIS</button>
+        </div>
+        <div class="produto4">
+            <p id="produto4">Espelhos R$380,00</p>
+            <img src="/imagensBarbearia/armarioEspelho.jpg" alt="espelhos" id="espelhos">
+            <button id="botao4" onclick="window.location.href='/produtos/espelho.html'">VER MAIS</button>
+        </div>
+    </div>
+
+    <div class="iconWpp"> <img src="/imagensBarbearia/wpp.jpg" alt="wppicon" id="wppicon"></div>
+
+    <div class="quemSomos">
+        <h1 id="TituloQuemSomos">SOBRE NÓS</h1>
+        <img src="/imagensBarbearia/fundoSobreNos.jpg" alt="" id="FundoSobreNos">
+        <p id="txtQuemSomos"></p>
+    </div>
+
+    <div class="localizaçao" id="localizaçaomap">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3753.393644438289!2d-43.95288372809437!3d-19.823290259331394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa68ffffbdae3e9%3A0x48da578acf75fddf!2sProz%20Educa%C3%A7%C3%A3o%20-%20Venda%20Nova!5e0!3m2!1spt-BR!2sbr!4v1724544564493!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="localizaçaoMap"></iframe>
+    </div>
+
+    <footer class="rodape">
+        <p id="tituloRodape">DESENVOLVEDORES</p>
+        
+        <div class="perfil">
+            <img src="/imagensBarbearia/perfil1.png" alt="perfilImg1" id="perfil1Img">
+            <p id="nome1">Pedro Lucas</p>
+            <img src="/imagensBarbearia/perfil2.jpg" alt="perfil02"  id="perfil02">
+            <p id="nome2">Álvaro Alberto</p>  
+            <img src="/imagensBarbearia/perfil3.jpg" alt="perfil03" id="perfilImg3">
+            <p id="nome3"> João Vitor Ferreira </p>
+            <img src="/imagensBarbearia/perfil4.png" alt="perfil04" id="perfilImg4">
+            <p id="nome4"> João Vitor Dos S.</p>
+            <img src="/imagensBarbearia/perfil5.png" alt="perfil05" id="perfilImg5">
+            <p id="nome5"> Kevyn Cristhian</p> 
+            <img src="/imagensBarbearia/perfil6.png" alt="perfil08" id="perfilImg6">
+            <p id="nome6"> Gustavo Rocha</p>
+        </div>
+    </footer>
+</body>
+</html>

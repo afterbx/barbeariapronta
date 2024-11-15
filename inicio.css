@@ -1,0 +1,480 @@
+.body{
+    overflow-x: hidden;
+}
+
+.menuNavegacao{
+    background-color: black;
+    height: 25vh;
+    top: -4vh;
+    position: absolute;
+    width: 101%;
+    left: -2vh;
+}
+
+#logo{
+    z-index: 10;
+    position: absolute;
+    left: 40vh;
+    top: -3vh;
+    width: 22vh;
+}
+
+#inicio{
+    position: absolute;
+    z-index: 10;
+    top: 13vh;
+    left: 80vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 3vh;
+    cursor: pointer;
+}
+
+#produtos{
+    position: absolute;
+    z-index: 10;
+    top: 13vh;
+    left: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 3vh;
+    cursor: pointer;
+}
+
+#AgendarNav{
+    position: absolute;
+    top: 12.3vh;
+    left: 128vh;
+    background-color: red;
+    border: solid rgb(214, 219, 234);
+    color: white;
+    border-radius: 2vh;
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 30vh;
+    height: 5vh;
+    cursor: pointer
+}
+
+#tituloBarber{
+    position: absolute;
+    top: 30vh;
+    left: 60vh;
+    font-family: Arial, Helvetica, sans-serif;   
+    font-size: 8vh;
+    z-index: 10;
+    color: black;
+}
+
+#logo2{
+    position: absolute;
+    left: -0.3vh;
+    top: 50vh;
+    height: 80%;
+    width: 100%;
+}
+
+#wppicon{
+    width: 8vh;
+    position: fixed;
+    left: 186vh;
+    top: 88vh;
+    border-radius: 2vh;
+    cursor: pointer;
+    z-index: 15;
+}
+
+#tesoura{
+    width: 35vh;
+    position: absolute;
+    top: 140vh;
+    border-radius: 2vh;
+    border: solid 3px;
+    height: 40vh;
+}
+
+#fundoPreto1{
+    position: absolute;
+    width: 100.2%;
+    left: -0.5vh;
+    top: 150vh;
+    height: 60vh;
+}
+
+#tituloCortes{
+    width: 50vh;
+    top: 132vh;
+    position: absolute;
+    left: 80vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#corte1{
+    position: absolute;
+    top: 200vh;
+    width: 100vh;
+    left: 23vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.4vh;
+    font-weight: bold;
+    color: white;
+}
+
+#imgLuzes{
+    position: absolute;
+    width: 40vh;
+    top: 155vh;
+    left: 20vh;
+    border-radius: 3vh;
+    border: solid 3px;
+}
+
+#americano{
+    position: absolute;
+    width: 40vh;
+    top: 155vh;
+    left: 80vh;
+    border-radius: 3vh;
+    border: solid 3px;
+    height: 47vh;
+}
+
+#corte2{
+    position: absolute;
+    width: 40vh;
+    top: 200vh;
+    left: 83vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.4vh;
+    font-weight: bold;
+    color: white;
+}
+
+#sobrencelha{
+    position: absolute;
+    width: 40vh;
+    top: 155vh;
+    left: 140vh;
+    border: solid 3px;
+    border-radius: 3vh;
+    height: 47vh;
+}
+
+#corte3{
+    position: absolute;
+    top: 200vh;
+    left: 145vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.4vh;
+    font-weight: bold;
+    color: white;
+}
+
+#botaoAgende{
+    position: absolute;
+    top: 215vh;
+    left: 84vh;
+    background-color: rgb(255, 0, 0);
+    border-radius: 2vh;
+    border: solid 3px black;
+    font-size: 2.43vh;
+    font-weight: bold;
+    height: 7vh;
+    color: white;
+    cursor: pointer;
+}
+
+#tituloProdutos{
+    position: absolute;
+    top: 240vh;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 90vh;
+}
+
+#kitBarbearia{
+    position: absolute;
+    top: 260vh;
+    width: 40vh;
+    height: 30vh;
+    border-radius: 2vh;
+    left: 10vh;
+}
+
+#botao1{
+    position: absolute;
+    top: 297vh;
+    left: 23vh;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 1vh;
+    height: 5vh;
+    width: 15vh;
+}
+
+#produto1{
+    position: absolute;
+    top: 290vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    left: 15vh;
+    font-size: 3vh;
+}
+
+#maquina{
+    position: absolute;
+    top: 260vh;
+    width: 40vh;
+    left: 59vh;
+    border-radius: 2vh;
+    height: 30vh;
+}
+
+#botao2{
+        position: absolute;
+        top: 297vh;
+        left: 73vh;
+        background-color: black;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        border-radius: 1vh;
+        height: 5vh;
+        width: 15vh;     
+        cursor: pointer;
+}
+
+#produto2{
+    position: absolute;
+    top: 290vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    left: 66vh;
+    font-size: 3vh;
+    
+}
+
+#tesoura{
+    position: absolute;
+    top: 260vh;
+    width: 30vh;
+    height: 30vh;
+    left: 108vh;
+}
+
+#produto3{
+    position: absolute;
+    top: 290vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    left: 111vh;
+    font-size: 3vh;
+    
+
+}
+
+#botao3{
+    position: absolute;
+    top: 297vh;
+    left: 117vh;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 1vh;
+    height: 5vh;
+    width: 15vh;
+    cursor: pointer;
+}
+
+#espelhos{
+    position: absolute;
+    top: 260vh;
+    width: 30vh;
+    border-radius: 2vh;
+    height: 30vh;
+    left: 150vh;
+}
+
+#botao4{
+    position: absolute;
+    top: 297vh;
+    left: 160vh;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 1vh;
+    height: 5vh;
+    width: 15vh;
+    cursor: pointer;
+}
+
+#produto4{
+    position: absolute;
+    top: 290vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    left: 153vh;
+    font-size: 3vh;
+    
+}
+
+#TituloQuemSomos{
+    position: absolute;
+    top: 325vh;
+    left: 89vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#localizaçaoMap{
+    position: absolute;
+    z-index: 10;
+    top: 425vh;
+    left: 0vh;
+    width: 100%;
+    height: 35vh;
+}
+
+#FundoSobreNos{
+    position: absolute;
+    top: 348vh;
+    width: 100%;
+    left: 0vh;
+}
+
+.rodape{
+    position: absolute;
+    top: 460vh;
+    background-color: black;
+    width: 100%;
+    height: 30vh;
+    left: 0vh;
+}
+
+#tituloRodape{
+    position: absolute;
+    top: 5vh;
+    color: rgb(241, 241, 241);
+    z-index: 5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    left: 90vh;
+    font-size: 3vh;
+}
+
+#perfil1Img{
+    position: absolute;
+    width: 7vh;
+    border-radius: 50%;
+    left: 15vh;
+    top: 15vh;
+}
+
+#nome1{
+    position: absolute;
+    top: 15vh;
+    color: white;
+    left: 24vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#perfil02{
+    position: absolute;
+    width: 7vh;
+    border-radius: 50%;
+    left: 43vh;
+    top: 15vh;
+}
+
+#nome2{
+    position: absolute;
+    top: 15vh;
+    color: white;
+    left: 52vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#perfilImg3{
+    position: absolute;
+    width: 7vh;
+    border-radius: 50%;
+    left: 72vh;
+    top: 15vh;
+}
+
+#nome3{
+    position: absolute;
+    top: 15vh;
+    color: white;
+    left: 80vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#perfilImg4{
+    position: absolute;
+    width: 6vh;
+    border-radius: 50%;
+    left: 104vh;
+    top: 15vh;
+}
+
+#nome4{
+    position: absolute;
+    top: 15vh;
+    color: white;
+    left: 111vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#perfilImg5{
+    position: absolute;
+    width: 6vh;
+    border-radius: 50%;
+    left: 133vh;
+    top: 15vh;
+}
+
+#nome5{
+    position: absolute;
+    top: 15vh;
+    color: white;
+    left: 140vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+#perfilImg6{
+    position: absolute;
+    width: 7vh;
+    border-radius: 50%;
+    left: 160vh;
+    top: 15vh;
+}
+
+#nome6{
+    position: absolute;
+    top: 15vh;
+    color: white;
+    left: 168vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#tituloRodape{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}

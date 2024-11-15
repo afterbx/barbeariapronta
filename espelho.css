@@ -1,0 +1,258 @@
+.body{
+    overflow-x: hidden;
+}
+
+.menuNavegacao{
+    background-color: black;
+    height: 25vh;
+    top: -4vh;
+    position: absolute;
+    width: 101%;
+    left: -2vh;
+}
+
+#logo{
+    z-index: 10;
+    position: absolute;
+    left: 40vh;
+    top: -3vh;
+    width: 22vh;
+}
+
+#inicio{
+    position: absolute;
+    z-index: 10;
+    top: 13vh;
+    left: 80vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 3vh;
+    cursor: pointer;
+}
+
+#produtos{
+    position: absolute;
+    z-index: 10;
+    top: 13vh;
+    left: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 3vh;
+    cursor: pointer;
+}
+
+#AgendarNav{
+    position: absolute;
+    top: 12.3vh;
+    left: 128vh;
+    background-color: red;
+    border:  solid rgb(214, 219, 234);
+    color: white;
+    border-radius: 2vh;
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 30vh;
+    height: 5vh;
+    cursor: pointer;
+}
+
+#seta{
+    position: absolute;
+    width: 5vh;
+    top: 15vh;
+    left: 8vh;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#txtSeta{
+    position: absolute;
+    top: 11vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    left: 8vh;
+    cursor: pointer;
+}
+
+#Espelho{
+    position: absolute;
+    width: 50vh;
+    top: 40vh;
+    left: 20vh;
+
+}
+
+#txtEspelho{
+    position: absolute;
+    top: 52vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    left:80vh;
+    width: 110vh;
+}
+
+#sacola{
+    position: absolute;
+    width: 4vh;
+    top: 0.5vh;
+    left: 8vh;
+}
+
+#pagar{
+    position: absolute;
+    width: 50vh;
+    top: 70vh;
+    left: 100vh;   
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border-radius: 2vh;
+    cursor: pointer;
+}
+
+.tituloEspelho{
+    position: absolute;
+    top: 42vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    left: 80vh;
+    z-index: 10;
+}
+
+
+.rodape{
+    position: absolute;
+    top: 110vh;
+    background-color: black;
+    width: 100%;
+    height: 30vh;
+    left: 0vh;
+}
+
+#tituloRodape{
+    position: absolute;
+    top: 5vh;
+    color: rgb(241, 241, 241);
+    z-index: 5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    left: 90vh;
+    font-size: 3vh;
+}
+
+#perfil1Img{
+    position: absolute;
+    width: 7vh;
+    border-radius: 50%;
+    left: 15vh;
+    top: 15vh;
+}
+
+#nome1{
+    position: absolute;
+    top: 15vh;
+    color: white;
+    left: 24vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#perfil02{
+    position: absolute;
+    width: 7vh;
+    border-radius: 50%;
+    left: 43vh;
+    top: 15vh;
+}
+
+#nome2{
+    position: absolute;
+    top: 15vh;
+    color: white;
+    left: 52vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#perfilImg3{
+    position: absolute;
+    width: 7vh;
+    border-radius: 50%;
+    left: 72vh;
+    top: 15vh;
+}
+
+#nome3{
+    position: absolute;
+    top: 15vh;
+    color: white;
+    left: 80vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#perfilImg4{
+    position: absolute;
+    width: 6vh;
+    border-radius: 50%;
+    left: 104vh;
+    top: 15vh;
+}
+
+#nome4{
+    position: absolute;
+    top: 15vh;
+    color: white;
+    left: 111vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#perfilImg5{
+    position: absolute;
+    width: 6vh;
+    border-radius: 50%;
+    left: 133vh;
+    top: 15vh;
+}
+
+#nome5{
+    position: absolute;
+    top: 15vh;
+    color: white;
+    left: 140vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+#perfilImg6{
+    position: absolute;
+    width: 7vh;
+    border-radius: 50%;
+    left: 160vh;
+    top: 15vh;
+}
+
+#nome6{
+    position: absolute;
+    top: 15vh;
+    color: white;
+    left: 168vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#tituloRodape{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}

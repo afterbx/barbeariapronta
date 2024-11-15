@@ -1,0 +1,450 @@
+.body{
+    overflow-x: hidden;
+}
+
+.menuNavegacao{
+    background-color: black;
+    height: 25vh;
+    top: -4vh;
+    position: absolute;
+    width: 101%;
+    left: -2vh;
+}
+
+#logo{
+    z-index: 10;
+    position: absolute;
+    left: 40vh;
+    top: -3vh;
+    width: 22vh;
+}
+
+#inicio{
+    position: absolute;
+    z-index: 10;
+    top: 13vh;
+    left: 80vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 3vh;
+    cursor: pointer;
+}
+
+#produtos{
+    position: absolute;
+    z-index: 10;
+    top: 13vh;
+    left: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 3vh;
+    cursor: pointer;
+}
+
+#AgendarNav{
+    position: absolute;
+    top: 12.3vh;
+    left: 128vh;
+    background-color: red;
+    border:  solid rgb(214, 219, 234);
+    color: white;
+    border-radius: 2vh;
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 30vh;
+    height: 5vh;
+    cursor: pointer;
+}
+
+#tituloProdutos{
+    position: absolute;
+    top: 25vh;
+    left: 10vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#espumaImg{
+    position: absolute;
+    width: 40vh;
+    border-radius: 2vh;
+    border: solid 2px;
+    top: 40vh;
+    left: 10vh;
+}
+
+#botao1{
+    position: absolute;
+    top: 36.5vh;
+    left: 10.1vh;
+    border-radius: 2vh 2vh 0 0;
+    width: 40.5vh;
+    border: none;
+    background-color: black;
+    color: white;
+    height: 5vh;
+    cursor: pointer;
+}
+
+#txtEspuma{
+    position: absolute;
+    top: 79vh;
+    left: 22vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+#botao2{
+    position: absolute;
+    top: 36.5vh;
+    left: 60vh;
+    border-radius: 2vh 2vh 0 0;
+    width: 40.5vh;
+    border: none;
+    background-color: black;
+    color: white;
+    height: 5vh;
+    cursor: pointer;
+}
+
+
+
+
+#kitCabelo{
+    position: absolute;
+    width: 40vh;
+    border-radius: 2vh;
+    border: solid 2px;
+    top: 40vh;
+    left: 60vh;
+}
+
+#txtKitCabelo{
+    position: absolute;
+    top: 79vh;
+    left: 74vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#botao3{
+    position: absolute;
+    top: 40vh;
+    left: 110.3vh;
+    border-radius: 2vh 2vh 0 0;
+    width: 40vh;
+    border: none;
+    background-color: black;
+    color: white;
+    height: 5vh;
+    cursor: pointer;
+    
+}
+#navalhaImg{
+    position: absolute;
+    width: 40vh;
+    border-radius: 2vh;
+    border: solid 2px;
+    top: 40vh;
+    left:110vh;
+}
+
+#txtNavalha{
+    position: absolute;
+    top: 79vh;
+    left: 122vh;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+#botao4{
+    position: absolute;
+    top: 40vh;
+    left: 160.2vh;
+    border-radius: 2vh 2vh 0 0;
+    width: 40vh;
+    border: none;
+    background-color: black;
+    color: white;
+    height: 5vh;
+    cursor: pointer;
+}
+
+#pincelImg{
+    position: absolute;
+    width: 40vh;
+    border-radius: 2vh;
+    border: solid 2px;
+    top: 40vh;
+    left:160vh;
+}
+
+#txtPincel{
+    position: absolute;
+    top: 79vh;
+    left: 174vh;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+#espelhoImg{
+    position: absolute;
+    width: 40vh;
+    border-radius: 2vh;
+    border: solid 2px;
+    top: 90vh;
+    left: 10vh;
+}
+
+#botao5{
+    position: absolute;
+    top: 86.5vh;
+    left: 10.1vh;
+    border-radius: 2vh 2vh 0 0;
+    width: 40.5vh;
+    border: none;
+    background-color: black;
+    color: white;
+    height: 5vh;
+    cursor: pointer;
+}
+
+
+#txtEspelho{
+    position: absolute;
+    top: 135vh;
+    left: 21vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#kitPerfeitoImg{
+    position: absolute;
+    width: 40vh;
+    border-radius: 2vh;
+    border: solid 2px;
+    top: 100vh;
+    left: 60vh;
+}
+
+
+#botao6{
+    position: absolute;
+    top: 97vh;
+    left: 60vh;
+    border-radius: 2vh 2vh 0 0;
+    width: 40.5vh;
+    border: none;
+    background-color: black;
+    color: white;
+    height: 5vh;
+    cursor: pointer;
+}
+
+#txtKitPerfeito{
+    position: absolute;
+    top: 135vh;
+    left: 69vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#txtMaquina{
+    position: absolute;
+    top: 135vh;
+    left: 122vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#botao7{
+    position: absolute;
+    top: 86.5vh;
+    left: 110.1vh;
+    border-radius: 2vh 2vh 0 0;
+    width: 40.5vh;
+    border: none;
+    background-color: black;
+    color: white;
+    height: 5vh;
+    cursor: pointer;
+}
+
+#maquinaImg{
+    position: absolute;
+    width: 40vh;
+    border-radius: 2vh;
+    border: solid 2px;
+    top: 90vh;
+    left:110vh;
+}
+
+#tesouraImg{
+    position: absolute;
+    width: 40vh;
+    border-radius: 2vh;
+    border: solid 2px;
+    top: 90vh;
+    left:160vh;
+}
+
+#botao8{
+    position: absolute;
+    top: 86.5vh;
+    left: 160vh;
+    border-radius: 2vh 2vh 0 0;
+    width: 40.5vh;
+    border: none;
+    background-color: black;
+    color: white;
+    height: 5vh;
+    cursor: pointer;
+}
+
+#txtTesoura{
+    position: absolute;
+    top: 135vh;
+    left: 171vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#wppicon{
+    width: 8vh;
+    position: fixed;
+    left: 186vh;
+    top: 88vh;
+    border-radius: 2vh;
+    cursor: pointer;
+    z-index: 20;
+}
+
+.rodape{
+    position: absolute;
+    top: 160vh;
+    background-color: black;
+    width: 100%;
+    height: 30vh;
+    left: 0vh;
+    z-index: 1;
+}
+
+#tituloRodape{
+    position: absolute;
+    top: 5vh;
+    color: rgb(241, 241, 241);
+    z-index: 5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    left: 90vh;
+    font-size: 3vh;
+}
+
+#perfil1Img{
+    position: absolute;
+    width: 7vh;
+    border-radius: 50%;
+    left: 15vh;
+    top: 15vh;
+}
+
+#nome1{
+    position: absolute;
+    top: 15vh;
+    color: white;
+    left: 24vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#perfil02{
+    position: absolute;
+    width: 7vh;
+    border-radius: 50%;
+    left: 43vh;
+    top: 15vh;
+}
+
+#nome2{
+    position: absolute;
+    top: 15vh;
+    color: white;
+    left: 52vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#perfilImg3{
+    position: absolute;
+    width: 7vh;
+    border-radius: 50%;
+    left: 72vh;
+    top: 15vh;
+}
+
+#nome3{
+    position: absolute;
+    top: 15vh;
+    color: white;
+    left: 80vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#perfilImg4{
+    position: absolute;
+    width: 6vh;
+    border-radius: 50%;
+    left: 104vh;
+    top: 15vh;
+}
+
+#nome4{
+    position: absolute;
+    top: 15vh;
+    color: white;
+    left: 111vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#perfilImg5{
+    position: absolute;
+    width: 6vh;
+    border-radius: 50%;
+    left: 133vh;
+    top: 15vh;
+}
+
+#nome5{
+    position: absolute;
+    top: 15vh;
+    color: white;
+    left: 140vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+#perfilImg6{
+    position: absolute;
+    width: 7vh;
+    border-radius: 50%;
+    left: 160vh;
+    top: 15vh;
+}
+
+#nome6{
+    position: absolute;
+    top: 15vh;
+    color: white;
+    left: 168vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
